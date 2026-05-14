@@ -1,0 +1,16 @@
+<button id="btn">show</button>
+
+<script>
+    var button=document.getElementById("btn")
+    button.addEventListener("click",function(){
+        alert("Hello")
+
+    })
+    button.addEventListener("mouseover",function(){
+        alert("Mouse over")
+    })
+
+
+    
+
+</script>
