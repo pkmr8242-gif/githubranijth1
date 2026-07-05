@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Forms</title>
+
+</head>
+<body bgcolor="lightgreen">
+    <center>
+        <h2>Registration Form</h2>
+    </center>
+    <form >
+        <div>
+            <h3>Name <input type="text" maxlength="40"></h3><br>
+            <h3>Gender</h3><br>
+            <input type="radio" name="gender"><h3>Male</h3><br>
+            <input type="radio" name="gender"><h3>Female</h3><br>
+            <h3>Address</h3><br>
+            <textarea cols="50" rows="10"></textarea>
+            <h3>Skills <br>
+            <input type="checkbox">HTML <br>
+            <input type="checkbox">CSS <br>
+            <input type="checkbox">JS <br></h3>
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+        </div>
+    </form>
+
+    
+</body>
+</html>
